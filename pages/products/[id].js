@@ -8,7 +8,7 @@ const products = () => {
  <div>
     <center> 
      <h1>
-     Rroducts Name: {pathData.id}<br/>
+     Products Name: {pathData.id}<br/>
      
  </h1>
  </center> 
@@ -30,7 +30,13 @@ const products = () => {
          |
         <Link href="/products/P024">
           <a>Products</a>
+          </Link>
+         |
+        <Link href="/components">
+          <a>components</a>
         </Link>
+        <br></br>
+        
         </center>
     </main>
  </div>

@@ -26,6 +26,11 @@ export default function about() {
         <Link href="/products/P024">
           <a>Products</a>
         </Link>
+         |
+        <Link href="/components">
+          <a>components</a>
+        </Link>
+        <br></br>
         </center>  
     </main>
   </div>  
