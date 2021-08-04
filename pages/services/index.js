@@ -1,25 +1,22 @@
-import React from 'react';
+import Head from 'next/head';
 import Link from 'next/link'
-import { useRouter } from 'next/router';
 
-const Products = () => {
-    const router = useRouter()
-    const pathData = router.query
-    return(
+export default function Services() {
+    return (
         <div>
-            <head>
+            <Head>
                 <meta charset="UTF-8"></meta>
-                <title>Products</title>
-            </head>
-            <center>
-                <h1>
-                    Product ID: {pathData.id}
-                    <br/>
-                    Prices: {pathData.price}
-                </h1>
-            </center>
+                <title>Services</title>
+            </Head>
+            <Head>
+                <meta charset="UTF-8"></meta>
+                <title>Services</title>
+            </Head>
             <main>
                 <center>
+                    <h1>
+                        Services
+                    </h1>
                     <br/>
                     <Link href="/">
                         <a> Home </a>
@@ -34,8 +31,8 @@ const Products = () => {
                         <a> Products </a>
                     </Link> |
                 </center>
-            </main> 
+            </main>
         </div>
+
     )
 }
-export default Products
